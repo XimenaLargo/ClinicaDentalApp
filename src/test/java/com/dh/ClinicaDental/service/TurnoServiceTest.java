@@ -13,7 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
-
+import org.junit.jupiter.api.Order;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
@@ -29,8 +29,9 @@ class TurnoServiceTest {
     @Autowired
     private TurnoService turnoService;
 
-    @BeforeEach
-    public void precargarDatos() throws BadRequestException {
+    @Test
+    @Order(1)
+    void registrarTurno() throws ResourceNotFoundException, BadRequestException {
         Domicilio domicilio = new Domicilio();
         domicilio.setCalle("falsa");
         domicilio.setNumero(123);
@@ -53,36 +54,10 @@ class TurnoServiceTest {
 
         odontologoService.registrarOdontologo(odontologo);
 
-        Domicilio domicilio2 = new Domicilio();
-        domicilio2.setCalle("falsa");
-        domicilio2.setNumero(123);
-        domicilio2.setLocalidad("Av siempre viva");
-        domicilio2.setProvincia("Springfield");
-
-        Paciente paciente2 = new Paciente();
-        paciente2.setNombre("Rosa");
-        paciente2.setApellido("Velez");
-        paciente2.setDni(98534);
-        paciente2.setDomicilio(domicilio2);
-        paciente2.setFechaDeAlta(LocalDate.of(2022,11,15));
-
-        pacienteService.registrarPaciente(paciente2);
-
-        Odontologo odontologo2 = new Odontologo();
-        odontologo2.setNombre("Mario");
-        odontologo2.setApellido("Lopez");
-        odontologo2.setMatricula(78346);
-
-        odontologoService.registrarOdontologo(odontologo2);
-    }
-
-    @Test
-    @Order(1)
-    void registrarTurno() throws ResourceNotFoundException {
         TurnoDTO turno = new TurnoDTO();
         turno.setFecha(LocalDate.of(2022,12,22));
-        turno.setOdontologo_id(1L);
-        turno.setPaciente_id(1L);
+        turno.setOdontologo_id(odontologo.getId());
+        turno.setPaciente_id(paciente.getId());
 
         TurnoDTO turnoGuardado = turnoService.registrarTurno(turno);
 
@@ -106,17 +81,39 @@ class TurnoServiceTest {
 
     @Test
     @Order(4)
-    void actualizarTurno() throws ResourceNotFoundException{
+    void actualizarTurno() throws ResourceNotFoundException, BadRequestException {
+
+        Domicilio domicilio2 = new Domicilio();
+        domicilio2.setCalle("falsa");
+        domicilio2.setNumero(123);
+        domicilio2.setLocalidad("Av siempre viva");
+        domicilio2.setProvincia("Springfield");
+
+        Paciente paciente2 = new Paciente();
+        paciente2.setNombre("Rosa");
+        paciente2.setApellido("Velez");
+        paciente2.setDni(98534);
+        paciente2.setDomicilio(domicilio2);
+        paciente2.setFechaDeAlta(LocalDate.of(2022,11,15));
+
+        pacienteService.registrarPaciente(paciente2);
+
+        Odontologo odontologo2 = new Odontologo();
+        odontologo2.setNombre("Mario");
+        odontologo2.setApellido("Lopez");
+        odontologo2.setMatricula(78346);
+
+        odontologoService.registrarOdontologo(odontologo2);
 
         TurnoDTO turno = new TurnoDTO();
         turno.setId(1L);
         turno.setFecha(LocalDate.of(2022,12,22));
-        turno.setOdontologo_id(2L);
-        turno.setPaciente_id(1L);
+        turno.setOdontologo_id(odontologo2.getId());
+        turno.setPaciente_id(paciente2.getId());
 
         TurnoDTO turnoGuardado = turnoService.actualizarTurno(turno);
 
-        assertEquals(2, turnoGuardado.getOdontologo_id());
+        assertEquals(odontologo2.getId(), turnoGuardado.getOdontologo_id());
 
     }
 
