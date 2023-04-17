@@ -1,0 +1,100 @@
+[2023-04-12 14:40:24] [ DEBUG] [OdontologoService:24] Inicio del metodo post: registrar odontologo
+[2023-04-12 14:40:24] [ INFO ] [OdontologoService:26] Se registro correctamente el odontologo
+[2023-04-12 14:40:25] [ DEBUG] [OdontologoService:35] inicio del metodo get: buscar odontologo por id
+[2023-04-12 14:40:25] [ DEBUG] [OdontologoService:39] inicio del metodo get: buscar todos los odontologos registrados
+[2023-04-12 14:40:26] [ INFO ] [OdontologoService:42] Odontologos registrados: 1
+[2023-04-12 14:40:26] [ DEBUG] [OdontologoService:51] inicio del metodo put: actualizar odontologo
+[2023-04-12 14:40:26] [ DEBUG] [OdontologoService:35] inicio del metodo get: buscar odontologo por id
+[2023-04-12 14:40:26] [ INFO ] [OdontologoService:54] odontologo actualizado con exito
+[2023-04-12 14:40:26] [ DEBUG] [OdontologoService:63] inicio del metodo delete: eliminar odontologo
+[2023-04-12 14:40:26] [ DEBUG] [OdontologoService:35] inicio del metodo get: buscar odontologo por id
+[2023-04-12 14:40:26] [ INFO ] [OdontologoService:65] odontologo eliminado con exito
+[2023-04-12 14:40:26] [ DEBUG] [OdontologoService:35] inicio del metodo get: buscar odontologo por id
+[2023-04-12 14:40:26] [ DEBUG] [PacienteService:19] Inicio del metodo post: registrar paciente
+[2023-04-12 14:40:26] [ INFO ] [PacienteService:21] Se registro correctamente el paciente
+[2023-04-12 14:40:26] [ DEBUG] [PacienteService:30] inicio del metodo get: buscar paciente por id
+[2023-04-12 14:40:26] [ DEBUG] [PacienteService:34] inicio del metodo get: buscar todos los pacientes registrados
+[2023-04-12 14:40:26] [ INFO ] [PacienteService:37] Pacientes registrados: 1
+[2023-04-12 14:40:26] [ DEBUG] [PacienteService:46] inicio del metodo put: actualizar paciente
+[2023-04-12 14:40:26] [ DEBUG] [PacienteService:30] inicio del metodo get: buscar paciente por id
+[2023-04-12 14:40:26] [ INFO ] [PacienteService:49] Paciente actualizado con exito
+[2023-04-12 14:40:27] [ DEBUG] [PacienteService:58] inicio del metodo delete: eliminar paciente
+[2023-04-12 14:40:27] [ DEBUG] [PacienteService:30] inicio del metodo get: buscar paciente por id
+[2023-04-12 14:40:27] [ INFO ] [PacienteService:60] paciente eliminado con exito
+[2023-04-12 14:40:27] [ DEBUG] [PacienteService:30] inicio del metodo get: buscar paciente por id
+[2023-04-12 14:40:27] [ DEBUG] [PacienteService:19] Inicio del metodo post: registrar paciente
+[2023-04-12 14:40:27] [ INFO ] [PacienteService:21] Se registro correctamente el paciente
+[2023-04-12 14:40:27] [ DEBUG] [OdontologoService:24] Inicio del metodo post: registrar odontologo
+[2023-04-12 14:40:27] [ INFO ] [OdontologoService:26] Se registro correctamente el odontologo
+[2023-04-12 14:40:27] [ DEBUG] [TurnoService:33] inicio del metodo post: registrar turno
+[2023-04-12 14:40:27] [ DEBUG] [OdontologoService:35] inicio del metodo get: buscar odontologo por id
+[2023-04-12 14:40:27] [ DEBUG] [PacienteService:30] inicio del metodo get: buscar paciente por id
+[2023-04-12 14:40:27] [ INFO ] [TurnoService:55] Se creo correctamente el turno
+[2023-04-12 14:40:27] [ DEBUG] [TurnoService:64] inicio del metodo get: buscar turno por id
+[2023-04-12 14:40:27] [ INFO ] [TurnoService:79] El turno existe
+[2023-04-12 14:40:27] [ DEBUG] [TurnoService:87] inicio del metodo get: buscar todos los turnos registrados
+[2023-04-12 14:40:27] [ INFO ] [TurnoService:90] Turnos registrados: 1
+[2023-04-12 14:40:27] [ DEBUG] [PacienteService:19] Inicio del metodo post: registrar paciente
+[2023-04-12 14:40:27] [ INFO ] [PacienteService:21] Se registro correctamente el paciente
+[2023-04-12 14:40:27] [ DEBUG] [OdontologoService:24] Inicio del metodo post: registrar odontologo
+[2023-04-12 14:40:27] [ INFO ] [OdontologoService:26] Se registro correctamente el odontologo
+[2023-04-12 14:40:27] [ DEBUG] [TurnoService:100] inicio del metodo put: actualizar turno
+[2023-04-12 14:40:27] [ DEBUG] [TurnoService:64] inicio del metodo get: buscar turno por id
+[2023-04-12 14:40:27] [ INFO ] [TurnoService:79] El turno existe
+[2023-04-12 14:40:28] [ INFO ] [TurnoService:124] turno actualizado con exito
+[2023-04-12 14:40:28] [ DEBUG] [TurnoService:134] inicio del metodo delete: eliminar turno
+[2023-04-12 14:40:28] [ DEBUG] [TurnoService:64] inicio del metodo get: buscar turno por id
+[2023-04-12 14:40:28] [ INFO ] [TurnoService:79] El turno existe
+[2023-04-12 14:40:28] [ INFO ] [TurnoService:138] turno eliminado con exito
+[2023-04-12 14:40:28] [ DEBUG] [TurnoService:64] inicio del metodo get: buscar turno por id
+[2023-04-12 14:40:28] [ ERROR] [TurnoService:82] El turno no existe
+[2023-04-12 14:41:36] [ DEBUG] [OdontologoService:24] Inicio del metodo post: registrar odontologo
+[2023-04-12 14:41:36] [ INFO ] [OdontologoService:26] Se registro correctamente el odontologo
+[2023-04-12 14:41:36] [ DEBUG] [OdontologoService:35] inicio del metodo get: buscar odontologo por id
+[2023-04-12 14:41:36] [ DEBUG] [OdontologoService:39] inicio del metodo get: buscar todos los odontologos registrados
+[2023-04-12 14:41:37] [ INFO ] [OdontologoService:42] Odontologos registrados: 1
+[2023-04-12 14:41:37] [ DEBUG] [OdontologoService:51] inicio del metodo put: actualizar odontologo
+[2023-04-12 14:41:37] [ DEBUG] [OdontologoService:35] inicio del metodo get: buscar odontologo por id
+[2023-04-12 14:41:37] [ INFO ] [OdontologoService:54] odontologo actualizado con exito
+[2023-04-12 14:41:37] [ DEBUG] [OdontologoService:63] inicio del metodo delete: eliminar odontologo
+[2023-04-12 14:41:37] [ DEBUG] [OdontologoService:35] inicio del metodo get: buscar odontologo por id
+[2023-04-12 14:41:37] [ INFO ] [OdontologoService:65] odontologo eliminado con exito
+[2023-04-12 14:41:37] [ DEBUG] [OdontologoService:35] inicio del metodo get: buscar odontologo por id
+[2023-04-12 14:41:37] [ DEBUG] [PacienteService:19] Inicio del metodo post: registrar paciente
+[2023-04-12 14:41:37] [ INFO ] [PacienteService:21] Se registro correctamente el paciente
+[2023-04-12 14:41:37] [ DEBUG] [PacienteService:30] inicio del metodo get: buscar paciente por id
+[2023-04-12 14:41:37] [ DEBUG] [PacienteService:34] inicio del metodo get: buscar todos los pacientes registrados
+[2023-04-12 14:41:37] [ INFO ] [PacienteService:37] Pacientes registrados: 1
+[2023-04-12 14:41:37] [ DEBUG] [PacienteService:46] inicio del metodo put: actualizar paciente
+[2023-04-12 14:41:37] [ DEBUG] [PacienteService:30] inicio del metodo get: buscar paciente por id
+[2023-04-12 14:41:37] [ INFO ] [PacienteService:49] Paciente actualizado con exito
+[2023-04-12 14:41:37] [ DEBUG] [PacienteService:58] inicio del metodo delete: eliminar paciente
+[2023-04-12 14:41:37] [ DEBUG] [PacienteService:30] inicio del metodo get: buscar paciente por id
+[2023-04-12 14:41:37] [ INFO ] [PacienteService:60] paciente eliminado con exito
+[2023-04-12 14:41:37] [ DEBUG] [PacienteService:30] inicio del metodo get: buscar paciente por id
+[2023-04-12 14:41:37] [ DEBUG] [PacienteService:19] Inicio del metodo post: registrar paciente
+[2023-04-12 14:41:37] [ INFO ] [PacienteService:21] Se registro correctamente el paciente
+[2023-04-12 14:41:37] [ DEBUG] [OdontologoService:24] Inicio del metodo post: registrar odontologo
+[2023-04-12 14:41:37] [ INFO ] [OdontologoService:26] Se registro correctamente el odontologo
+[2023-04-12 14:41:37] [ DEBUG] [TurnoService:33] inicio del metodo post: registrar turno
+[2023-04-12 14:41:37] [ DEBUG] [OdontologoService:35] inicio del metodo get: buscar odontologo por id
+[2023-04-12 14:41:37] [ DEBUG] [PacienteService:30] inicio del metodo get: buscar paciente por id
+[2023-04-12 14:41:37] [ INFO ] [TurnoService:55] Se creo correctamente el turno
+[2023-04-12 14:41:37] [ DEBUG] [TurnoService:64] inicio del metodo get: buscar turno por id
+[2023-04-12 14:41:37] [ INFO ] [TurnoService:79] El turno existe
+[2023-04-12 14:41:38] [ DEBUG] [TurnoService:87] inicio del metodo get: buscar todos los turnos registrados
+[2023-04-12 14:41:38] [ INFO ] [TurnoService:90] Turnos registrados: 1
+[2023-04-12 14:41:38] [ DEBUG] [PacienteService:19] Inicio del metodo post: registrar paciente
+[2023-04-12 14:41:38] [ INFO ] [PacienteService:21] Se registro correctamente el paciente
+[2023-04-12 14:41:38] [ DEBUG] [OdontologoService:24] Inicio del metodo post: registrar odontologo
+[2023-04-12 14:41:38] [ INFO ] [OdontologoService:26] Se registro correctamente el odontologo
+[2023-04-12 14:41:38] [ DEBUG] [TurnoService:100] inicio del metodo put: actualizar turno
+[2023-04-12 14:41:38] [ DEBUG] [TurnoService:64] inicio del metodo get: buscar turno por id
+[2023-04-12 14:41:38] [ INFO ] [TurnoService:79] El turno existe
+[2023-04-12 14:41:38] [ INFO ] [TurnoService:124] turno actualizado con exito
+[2023-04-12 14:41:38] [ DEBUG] [TurnoService:134] inicio del metodo delete: eliminar turno
+[2023-04-12 14:41:38] [ DEBUG] [TurnoService:64] inicio del metodo get: buscar turno por id
+[2023-04-12 14:41:38] [ INFO ] [TurnoService:79] El turno existe
+[2023-04-12 14:41:38] [ INFO ] [TurnoService:138] turno eliminado con exito
+[2023-04-12 14:41:38] [ DEBUG] [TurnoService:64] inicio del metodo get: buscar turno por id
+[2023-04-12 14:41:38] [ ERROR] [TurnoService:82] El turno no existe
