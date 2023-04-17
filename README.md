@@ -24,10 +24,10 @@ Este proyecto fue creado con Spring utilizando las siguientes herramientas:
 - H2 Database
 - Spring Data JPA
 - Lombok
-
+----
 ### 🌟 Ejecución
 
-- A través de IntelliJ IDEA
+##### - A través de IntelliJ IDEA
 
 1. Clona este repositorio
 ```
@@ -61,7 +61,7 @@ $ git clone https://github.com/XimenaLargo96/ClinicaDentalApp
 ```
 7. Finalmente para ver la aplicación desde el navegador ingresaremos a http://localhost:8080/ 
 
-- Desde la terminal
+##### - Desde la terminal 
 
 1. Clona este repositorio
 ```
