@@ -45,8 +45,9 @@ $ git clone https://github.com/XimenaLargo96/ClinicaDentalApp
    │   pom.xml
    └───src
 ```
-4. Vas a ir a Maven dentro de IntelliJ IDEA > final-project > Lifecycle y darás click en package
-5. Una vez se ejecute el package la estructura de las capetas cambiará y se añadirá la carpeta target, como se observa a continuación
+4. A continuacion iremos a src > main > java > com.dh.ClinicaDental y correremos el ClinicaDentalApplication
+
+5. Una vez se ejecute el programa la estructura de las capetas cambiará y se añadirá la carpeta target, como se observa a continuación
 ```
    ClinicaDentalApp
    │   .mvn
@@ -58,6 +59,53 @@ $ git clone https://github.com/XimenaLargo96/ClinicaDentalApp
    └───src
    └───target
 ```
-6. Finalmente iremos a src > main > java > com.dh.ClinicaDental y correremos el ClinicaDentalApplication
+7. Finalmente para ver la aplicación desde el navegador ingresaremos a http://localhost:8080/ 
 
-7. Para ver nuestra la aplicación desde el navegador ingresaremos a http://localhost:8080/ 
+- Desde la terminal
+
+1. Clona este repositorio
+```
+$ git clone https://github.com/XimenaLargo96/ClinicaDentalApp
+```
+2. Muevete a la carpeta del proyecto
+```
+$ cd ClinicaDentalApp
+```
+3. Está es la estructura del proyecto
+```
+   ClinicaDentalApp
+   │   .mvn
+   │   .gitignore
+   │   avisos.log
+   │   mvnw
+   │   mvnw.cmd
+   │   pom.xml
+   └───src
+```
+4. ¡¡¡ IMPORTANTE !!! Debes tener instalado Maven, para ver la guía  haz click [Aquí](https://maven.apache.org/install.html)
+5. Una vez te asegures de tener Maven ejecuta el siguiente comando: 
+```
+$ mvn package
+```
+6. La estrutura del proyecto cambiara y se añadirá la carpeta target
+```
+   ClinicaDentalApp
+   │   .mvn
+   │   .gitignore
+   │   avisos.log
+   │   mvnw
+   │   mvnw.cmd
+   │   pom.xml
+   └───src
+   └───target
+```
+7. Para ejecutar el proyecto utilizamos el siguiente comando: 
+```
+$ java -jar target/final-project-0.0.1-SNAPSHOT.jar
+```
+8. Finalmente para ver la aplicación desde el navegador ingresaremos a http://localhost:8080/
+
+#### Sitio
+
+Nuestra app deberá verse de esta forma 
+<img src="https://github.com/XimenaLargo96/ClinicaDentalApp/blob/master/src/main/resources/static/img/Demo.jpg" />
