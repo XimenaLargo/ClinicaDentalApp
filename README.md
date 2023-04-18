@@ -3,10 +3,7 @@
 *Bienvenidos a la clinica dental app, una aplicación diseñada realizar peticiones CRUD de los odontologos, pacientes y turnos de una clinica dental.*
 
 ### Acerca del proyecto 🚀
-Este proyecto se desarrollo utilizando JAVA, Spring e Hibernate para la creacion de las clases necesarias para construir el sistema, para la generación de la base de datos se utilizó H2 Database y la documentación de la API se generó con Swagger, este proyecto es una recopilación de los conocimientos adquiridos durante la materia Backend I del programa Certified Tech Developer de Digital House.
-
-La construcción de la aplicación se realizó clase a clase, hasta llegar a un backend funcional, creando los endopoints que hagan posible realizar diferentes peticiones y un Frontend básico que se conectara a la API generada y  permitiera la visualización del proyecto desde el navegador.
-
+Este proyecto se desarrollo utilizando JAVA, Spring e Hibernate para la construción de una API REST que permitiera realizar el CRUD completo de una clinica dental. Como base de datos se utilizó H2 Database y Spring Data JPA para el manejo de la misma, finalmente la parte de la conexión a la API con el FrontEnd se realizó utilizando Javascript.
 ### 🚨 Requerimientos
 
 Este proyecto fue creado con Spring utilizando las siguientes herramientas:
@@ -27,7 +24,7 @@ Este proyecto fue creado con Spring utilizando las siguientes herramientas:
 ----
 ### 🌟 Ejecución
 
-##### - A través de IntelliJ IDEA
+#####   A través de IntelliJ IDEA
 
 1. Clona este repositorio
 ```
@@ -61,7 +58,7 @@ $ git clone https://github.com/XimenaLargo96/ClinicaDentalApp
 ```
 7. Finalmente para ver la aplicación desde el navegador ingresaremos a http://localhost:8080/ 
 
-##### - Desde la terminal 
+#####  Desde la terminal 
 
 1. Clona este repositorio
 ```
@@ -104,8 +101,6 @@ $ mvn package
 $ java -jar target/final-project-0.0.1-SNAPSHOT.jar
 ```
 8. Finalmente para ver la aplicación desde el navegador ingresaremos a http://localhost:8080/
-
-#### Sitio
 
 Nuestra app deberá verse de esta forma 
 <img src="https://github.com/XimenaLargo96/ClinicaDentalApp/blob/master/src/main/resources/static/img/Demo.jpg" />
