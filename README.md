@@ -1,6 +1,6 @@
 # Clinica Dental App 🏣🦷
 
-*Bienvenidos a la clinica dental app, una aplicación diseñada realizar peticiones CRUD de los odontologos, pacientes y turnos de una clinica dental.*
+*Bienvenidos a la clinica dental app, una aplicación diseñada para realizar peticiones CRUD de los odontologos, pacientes y turnos de una clinica dental.*
 
 ### Acerca del proyecto 🚀
 Este proyecto se desarrollo utilizando JAVA, Spring e Hibernate para la construción de una API REST que permitiera realizar el CRUD completo de una clinica dental. Como base de datos se utilizó H2 Database y Spring Data JPA para el manejo de la misma, finalmente la parte de la conexión a la API con el FrontEnd se realizó utilizando Javascript.
