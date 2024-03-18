@@ -104,4 +104,4 @@ $ java -jar target/final-project-0.0.1-SNAPSHOT.jar
 8. Finally, to view the application from the browser, go to http://localhost:8080/.
 
 Our app should look like this 
-<img src="https://raw.githubusercontent.com/XimenaLargo96/PersonalRepository/main/imgs/clinica-dental.gif?token=GHSAT0AAAAAACJX6CQGCUNJWARTQGSUHLSCZPYVE4A" />
+<img src="https://github.com/XimenaLargo96/XimenaLargo96/blob/main/publicImages/clinica-dental.gif?raw=true" />
