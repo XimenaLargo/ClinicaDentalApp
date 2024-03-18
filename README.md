@@ -1,12 +1,13 @@
 # Clinica Dental App 🏣🦷
 
-*Bienvenidos a la clinica dental app, una aplicación diseñada para realizar peticiones CRUD de los odontologos, pacientes y turnos de una clinica dental.*
+*Welcome to the dental clinic app, an application designed to perform CRUD requests of dentists, patients and shifts of a dental clinic.*
 
-### Acerca del proyecto 🚀
-Este proyecto se desarrollo utilizando JAVA, Spring e Hibernate para la construción de una API REST que permitiera realizar el CRUD completo de una clinica dental. Como base de datos se utilizó H2 Database y Spring Data JPA para el manejo de la misma, finalmente la parte de la conexión a la API con el FrontEnd se realizó utilizando Javascript.
-### 🚨 Requerimientos
+### About the project 🚀
+This project was developed using JAVA, Spring and Hibernate to build a REST API to perform the complete CRUD of a dental clinic. H2 Database and Spring Data JPA were used to manage the database, finally the connection to the API with the FrontEnd was done using Javascript.
+### 🚨 Requirements
 
-Este proyecto fue creado con Spring utilizando las siguientes herramientas:
+This project was created with Spring using the following tools:
+
 - [Spring Initializr](https://start.spring.io/)
 
 - [Java 17](https://www.oracle.com/co/java/technologies/downloads/#java17)
@@ -15,23 +16,23 @@ Este proyecto fue creado con Spring utilizando las siguientes herramientas:
 
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
-#### *Dependencias*
+#### *Dependencies*
 
 - Spring Web
 - H2 Database
 - Spring Data JPA
 - Lombok
 ----
-### 🌟 Ejecución
+### 🌟 Implementation
 
-#####   A través de IntelliJ IDEA
+#####  Via IntelliJ IDEA
 
-1. Clona este repositorio
+1. Clone this repository
 ```
 $ git clone https://github.com/XimenaLargo96/ClinicaDentalApp
 ```
-2. Abre la carpeta ClinicaDentalApp con IntelliJ IDEA
-3. Una vez abierta deberás ver la siguiente estructura
+2. Open the ClinicaDentalApp folder with IntelliJ IDEA
+3. Once opened you should see the following structure
 ```
    ClinicaDentalApp
    │   .mvn
@@ -42,9 +43,9 @@ $ git clone https://github.com/XimenaLargo96/ClinicaDentalApp
    │   pom.xml
    └───src
 ```
-4. A continuacion iremos a src > main > java > com.dh.ClinicaDental y correremos el ClinicaDentalApplication
+4. Next we will go to src > main > java > com.dh.ClinicaDental and run the ClinicaDentalApplication
 
-5. Una vez se ejecute el programa la estructura de las capetas cambiará y se añadirá la carpeta target, como se observa a continuación
+5. Once the program is run, the folder structure will change and the target folder will be added, as shown below
 ```
    ClinicaDentalApp
    │   .mvn
@@ -56,19 +57,19 @@ $ git clone https://github.com/XimenaLargo96/ClinicaDentalApp
    └───src
    └───target
 ```
-7. Finalmente para ver la aplicación desde el navegador ingresaremos a http://localhost:8080/ 
+7. Finally, to view the application from the browser, go to http://localhost:8080/. 
 
-#####  Desde la terminal 
+#####  From Terminal
 
-1. Clona este repositorio
+1. Clone this repository
 ```
 $ git clone https://github.com/XimenaLargo96/ClinicaDentalApp
 ```
-2. Muevete a la carpeta del proyecto
+2. Move to the project folder
 ```
 $ cd ClinicaDentalApp
 ```
-3. Está es la estructura del proyecto
+3. This is the structure of the project
 ```
    ClinicaDentalApp
    │   .mvn
@@ -79,12 +80,12 @@ $ cd ClinicaDentalApp
    │   pom.xml
    └───src
 ```
-4. ¡¡¡ IMPORTANTE !!! Debes tener instalado Maven, para ver la guía  haz click [Aquí](https://maven.apache.org/install.html)
-5. Una vez te asegures de tener Maven ejecuta el siguiente comando: 
+4. IMPORTANT !!! You must have installed Maven, to see the guide click [here](https://maven.apache.org/install.html)
+5. Once you make sure you have Maven run the following command: 
 ```
 $ mvn package
 ```
-6. La estrutura del proyecto cambiara y se añadirá la carpeta target
+6. The project structure will change and the target folder will be added.
 ```
    ClinicaDentalApp
    │   .mvn
@@ -96,11 +97,11 @@ $ mvn package
    └───src
    └───target
 ```
-7. Para ejecutar el proyecto utilizamos el siguiente comando: 
+7. To execute the project we use the following command: 
 ```
 $ java -jar target/final-project-0.0.1-SNAPSHOT.jar
 ```
-8. Finalmente para ver la aplicación desde el navegador ingresaremos a http://localhost:8080/
+8. Finally, to view the application from the browser, go to http://localhost:8080/.
 
-Nuestra app deberá verse de esta forma 
-<img src="https://github.com/XimenaLargo96/ClinicaDentalApp/blob/master/src/main/resources/static/img/Demo.jpg" />
+Our app should look like this 
+<img src="https://raw.githubusercontent.com/XimenaLargo96/PersonalRepository/main/imgs/clinica-dental.gif?token=GHSAT0AAAAAACJX6CQGCUNJWARTQGSUHLSCZPYVE4A" />
